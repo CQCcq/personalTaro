@@ -1,0 +1,34 @@
+.index{
+  padding: 0px 10rpx;
+ width: calc(100% - 20rpx);
+    .linkList{
+      display: flex;
+      flex-direction: row;
+      padding: 0px 15rpx;
+      height: 180rpx;
+      margin-top: 20rpx;
+      background-color: rgb(179, 180, 194);
+      width: calc(100% - 30rpx);
+      border-radius: 8rpx;
+      .linkList-1{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10rpx 10rpx;
+        .linkList-2{
+          width: 100rpx;
+          height: 100rpx;
+          border-radius: 12rpx;
+          background-color: white;
+        }
+      }
+    }
+    .swiper-img{
+      width: 100%;height: 360rpx;
+      .demo-img-list{
+        width: 100%;height: 360rpx;background: #fff;
+      }
+    }
+}
